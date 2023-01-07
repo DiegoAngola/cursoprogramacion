@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://static1.elcorreo.com/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg");
+    background-position: center;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    border: 1px solid black;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 420px;
+    height: 520px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#select, #pais {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+#resetBtn, #borrarBtn {
+    margin: 20px auto;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+#resetBtn:hover, #borrarBtn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#resetBtn {
+    display: block;
+}
+
+#tachito {
+    width: 16px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.banderas {
+    margin: 20px auto;
+    width: 200px;
+    box-shadow: 5px 5px 10px black;
+}
+
+img {
+    width: 100%;
+}

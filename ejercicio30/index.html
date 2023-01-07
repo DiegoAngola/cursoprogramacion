@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 30</title>
+</head>
+
+<body>
+    <!-- Ejercicio 30
+En web, permitir el ingreso de un texto.
+Agregarle tres botones, para transformar el texto:
+Transformar el texto en MAYÚSCULAS
+Transformar el texto en minúsculas
+Transformar el texto, dependiendo las vocales detectadas:
+Con “a” se elimina el caracter
+Con “e” se reemplaza el caracter con z
+Con “i“ se reemplaza el caracter con el de la siguiente posición
+Con “o” se elimina el caracter
+Con “u” se reemplaza el caracter con el de la posición anterior
+(tener en cuenta que si la “i” está en la última posición o la “u” en la primera, no se reemplazan)
+Se emitirá el texto, según la opción elegida -->
+   
+
+
+<label for="">Ingrese texto a procesar:</label>
+    <input type="text" id="texto">
+    <label for="">Elija opcion:</label>
+    <button onclick="mayus()">MAYUSCULAS</button>
+    <button onclick="minus()">minusculas</button>
+    <button onclick="transformar()">Transformar</button>
+    <label for="">Resultado:</label>
+    <input type="text" id="resultado">
+
+
+
+
+    <script>
+    let texto = document.querySelector("#texto").value;
+    let resultado = document.querySelector("#resultado");
+
+     function mayus(){
+        resultado.value = texto.toUpperCase();
+     }
+     function minus(){
+        resultado.value = texto.toLowerCase();
+     }
+     function transformar(){
+        let array = Array.from(texto);
+        console.log(array)
+        if (array === a) {
+            
+        }
+     }
+
+
+    </script>
+</body>
+
+</html>

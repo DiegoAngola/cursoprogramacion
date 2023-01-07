@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 22</title>
+</head>
+<body>
+    <!-- Ejercicio 22
+Crear un array unidimensional con un tamaño de 10, inserta los valores numéricos que desees de la manera que quieras y muestra por pantalla la media de valores (promedio) del array. Nota: puede utilizar el método random de la Clase Math para generar números aleatorios al cargar el a -->
+
+<script>
+
+const numeros = Array.from({length: 12}, () => Math.floor(Math.random() * 20))
+console.log(numeros)
+
+// let suma = numeros.reduce((a,n) => (a += n, a), 0);
+// console.log(suma, "suma con reduce")
+
+// let promedio = suma / numeros.length;
+// console.log(promedio)
+
+
+// let otrasum = 0;
+
+// numeros.forEach(item => {
+//         otrasum += item;
+// })
+//   console.log(otrasum," suma con forEach");
+
+  numeros.forEach((numeros) => {
+    Math.max(numeros)
+    console.log(Math.max(numeros),"elmayor")
+  })
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>PRODUCTOS</h1>
+    <section id="agrego">
+        <h2>Nuevo Producto</h2>
+        <label for="desc" class="lblclass">Indique descripción</label>
+        <input type="text" id="desc"><br>
+        <label for="imagen" class="lblclass">Dirección de imagen</label>
+        <input type="text" id="dirImg"><br>
+        <input type="button" value="Agregar" onclick="agregar()">
+        <input type="button" value="Listado" onclick="location.href='listadoProd.html'">
+    </section>
+
+    <div class="contenedor">
+        <section id="producto">
+            <article>
+                <h3 class="descripcion"></h3>
+                <img src="" class="imagen">
+            </article>
+        </section>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto panda</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+
+<body>
+    
+<header>
+    <h1>PROYECTO PANDA</h1>
+    <p>APRENDAMOS TODO</p>
+</header>
+
+<section id="contenido">
+</section>
+
+<div id="boton"><button onclick="insertar()">Presionando este boton, vamos a colocar un dato en el cuadro</button></div>
+<div id="boton"><button onclick="quitar()">Presionando este boton, vamos a borrar un dato en el cuadro</button></div>
+
+<script>
+    let dato = "Bienvenidos al curso de Javascript";
+    dato += "<br><br><img src='panda1.png' width='100'>"
+    function insertar() {
+        document.querySelector("#contenido").innerHTML = dato;
+    }
+
+    function quitar() {
+        document.querySelector("#contenido").innerHTML = "";
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>

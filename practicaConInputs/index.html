@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica con Inputs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>PRACTICA CON INPUTS</h1>
+    </header>
+    <div>
+        <div class="nombreyA">
+            <label for="name">Nombre Y Apellido</label>
+            <input type="text" id="name">
+        </div>
+        <div class="contenedor">
+
+            <div id="genero">
+                <H2>GENERO</H2>
+                <form id="generos">
+
+                    <input type="radio" name="genero" class="genero" value="MASCULINO"> MASCULINO<br>
+
+                    <input type="radio" name="genero" class="genero" value="FEMENINO">FEMENINO<br>
+
+                    <input type="radio" name="genero" class="genero" value="OTRO">OTRO<br>
+                </form>
+            </div>
+            <div id="tdc">
+                <h2>TARJETA DE CREDITO</h2>
+                <form action="">
+                    <input type="checkbox" class="tarjetadc" name="tarjeta" value="VISA">VISA <br>
+                    
+                    <input type="checkbox" class="tarjetadc" name="tarjeta" value="MASTERCARD">MASTER CARD <br>
+                    
+                    <input type="checkbox" class="tarjetadc" name="tarjeta" value="NARANJA">NARANJA <br>
+                    
+                    <input type="checkbox" class="tarjetadc" name="tarjeta" value="AMERICAN EXPRESS">AMERICAN EXPRESS <br>
+                    
+                    <input type="checkbox" class="tarjetadc" name="tarjeta" value="OTRA">OTRA <br>
+                    
+                </form>
+            </div>
+        </div>
+        <div id="btn">
+            <input type="button" id="boton" value="RESULTADO">
+
+        </div>
+        <div>
+            <h3>RESULTADO</h3>
+        </div>
+    </div>
+    <div id="inputsresults">
+        <p class="nya"> </p>
+        <p class="sex"></p>
+        <p class="tdcs"></p>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

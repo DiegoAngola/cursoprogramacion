@@ -1,0 +1,39 @@
+#articulos {
+    /* background-color: white; */
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+   }
+
+#articulos .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(0, 17, 255, 0.151);
+}
+
+.images {
+    margin: 15px;
+}
+
+#articulos h3 {
+    text-align: center;
+}
+
+
+#articulos img {
+    max-width: 280px;
+    height: 200px;
+}
+
+#articulos h4 {
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+    max-width: 300px;
+    
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(/imagenes/animado.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+header {
+    min-height: 100px;
+    background-color: #8780ab;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    padding: 20px 0 0 10px;
+    color: white;
+    font-size: 3em;
+}
+
+header p  {
+    padding: 30px 10px 0 0;
+    font-size: 2em;
+    color: white;
+}
+
+
+

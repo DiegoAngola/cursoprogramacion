@@ -1,0 +1,13 @@
+
+#articulos, #celular {
+    margin: 25px auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+#articulos img, #celular img {
+    width: 200px;
+    max-height: 300px;
+}

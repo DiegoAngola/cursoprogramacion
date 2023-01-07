@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- En este caso, planteamos un juego de lanzamiento de dados.
+Idea de interfaz (podés diseñar la tuya diferente):
+Establecido un monto inicial de 500 pesos (se actualiza el valor por jugada) => “Tenés un total de $(actualizado)”. 
+El monto de la apuesta no puede ser superior al saldo. 
+Cuando “Lanzo” se muestra el número que salió, y en Resultado, si ganó o perdió, se actualiza el saldo, y se habilita el “Sigo jugando”.
+El “Me retiro” está siempre disponible, y mostraría una leyenda que diga “Te retirás con $(el saldo), te esperamos…”
+Si gana un lanzamiento, el importe apostado se duplica y se suma al saldo. -->
+
+
+<h2>Lanzamos dados</h2>
+
+<p>Tienes para apostar</p> 
+<label id="saldo">500</label>
+
+
+<label for="">Apuesta</label>
+<input type="text" id="apuesta">
+<label for="">Numero Apostado (1 - 6)</label>
+<input type="text" id="numero">
+<label for="">Dados</label>
+<input type="text" id="dado">
+<button id="boton" onclick="lanzar()">Lanzar</button>
+<button id="retiro" onclick="retiro()">Me retiro</button>
+
+
+<label for="">Resultado</label>
+<input type="text" id="resultado">
+
+
+
+<script src="js.js"></script>
+
+
+</body>
+</html>

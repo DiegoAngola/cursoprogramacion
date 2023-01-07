@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select y Datalist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="contenedor">
+
+<h2>Elemente Select</h2>
+
+<form action="">
+
+<select id="select" onchange="seleccionSelect()">
+    <option value=""> Seleccione una opcion... </option>
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Alemania">Alemania</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Peru">Peru</option>
+
+</select>
+
+<input type="button" value="Limpiar" onclick="borroSelect()" id="borrarBtn">
+
+
+</form>
+<br><hr>
+<h2>Elemento Datalist</h2>
+
+<form action="">
+    <input list="paises" id="pais" placeholder="Elige un pais..." onkeyup="seleccionDatalist()" onchange="seleccionDatalist()" autocomplete="off">
+    <datalist id="paises">
+        <option value="Argentina"></option>
+        <option value="Brasil"></option>
+        <option value="Alemania"></option>
+        <option value="Colombia"></option>
+        <option value="Peru"></option>
+
+    </datalist>
+    <img src="images/garbage-bin.png" alt="tachito" id="tachito" onclick="borroDatalist()">
+    <button type="reset" id="resetBtn">Reset</button>
+
+</form>
+<br>
+<hr>
+<section class="banderas"></section>
+
+</div>
+
+
+<script src="js.js"></script>
+</body>
+</html>

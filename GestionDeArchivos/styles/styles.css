@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    background-image: url(../images/teclado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(192,192,192,0.8);
+    height: 60px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+article {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(192,192,192,0.8);
+    border-radius: 5px;
+}
+
+p {
+    line-height: 2em;
+}
+
+#parrafo {
+    color: brown;
+    background-color: white;
+    line-height: 2em;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #008f8c;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+
+tr, th {
+    border: 1.5 solid #008f8c;
+    height: 60px;
+}
+
+td {
+    padding: 5px;
+}
+
+img {
+    width: 60px;
+}
+
+input[type="file"]{
+    padding: 5px;
+    background-color: #008f8c;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#texto #exportar {
+    padding: 3px 8px;
+    background-color: #008f8c;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    line-height: 2em;
+}
+
+#texto {
+    background-color: white;
+    color: black;
+}

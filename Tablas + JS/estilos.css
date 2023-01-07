@@ -1,0 +1,43 @@
+header {
+    min-height: 180px;
+    background-color: aqua;
+  
+
+}
+
+div {
+    
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    float: left;
+}
+
+header p  {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: white;
+    float: left;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table#tabla tr:nth-child(even) {
+    background-color: aqua;
+}
+
+table#tabla tr:nth-child(odd) {
+    background-color: rgba(208, 255, 0, 0.507);
+}
+

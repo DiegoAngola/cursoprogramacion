@@ -1,0 +1,31 @@
+.articulos {
+    /* background-color: white; */
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(0, 17, 255, 0.151);
+   }
+
+ h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.articulos img {
+    max-width: 280px;
+    height: 200px;
+}
+
+.articulos h3 {
+    
+    max-width: 300px;
+    
+}

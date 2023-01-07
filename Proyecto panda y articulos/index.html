@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto panda y articulos</title>
+    <link rel="stylesheet" href="/Estilos/estilos.css">
+    <link rel="stylesheet" href="/Estilos/articulos.css">
+</head>
+
+
+<body>
+    
+<header>
+    <h1>PROYECTO PANDA</h1>
+    <p>APRENDAMOS TODO</p>
+</header>
+
+<section id="contenido">
+</section>
+
+<div id="boton"><button onclick="insertar()">Presionando este boton, vamos a colocar un dato en el cuadro</button></div>
+<div id="boton"><button onclick="quitar()">Presionando este boton, vamos a borrar un dato en el cuadro</button></div>
+
+
+<section id="articulos">  
+    <h3>ARTICULOS</h3>
+<div class="contenedor">
+    <article class="images">
+        <img src="/imagenes/monitor.jpeg" alt="">
+        <h4> $53.999 <br>Monitor gamer curvo Asus TUF Gaming VG24VQ led 23.6</h4>
+    </article>
+
+
+     <article class="images"> 
+        <img src="/imagenes/PlacaVideo.webp">
+        <h4> $342.000 <br>Placa De Video Asus Tuf Gaming Rtx 3080 V2 O10g Gaming Lhr  </h4>
+    </article>
+   
+    <article class="images">
+        <img src="/imagenes/TecladoMecanico.webp" alt="">
+        <h4> $6.799 <br>Teclado gamer Redragon Kumara K552 QWERTY </h4>
+    </article>
+   
+    <article class="images">
+        <img src="/imagenes/PlacaMadre.webp" alt="">
+        <h4> $49.999 <br>Placa Madre Motherboard Asus Tuf Gaming B550m-plus   </h4>
+    </article>
+</div>
+</section>
+
+<script>
+    let dato = "Bienvenidos al curso de Javascript";
+    dato += "<br><br><img src='/imagenes/panda1.png' width='100'>"
+    function insertar() {
+        document.querySelector("#contenido").innerHTML = dato;
+    }
+
+    function quitar() {
+        document.querySelector("#contenido").innerHTML = "";
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
